@@ -1,0 +1,33 @@
+/* pages/modalMaskUsecase/modalMaskUsecase.wxss */
+.modal-btn{
+  width: 300rpx;
+  height: 100rpx;
+  margin: 30rpx auto;
+}
+.modal-box{
+  font-size: 32rpx;
+  white-space: pre;
+}
+.word-box{
+  margin: 20rpx;
+}
+.ok-btn{
+  border-top: 1rpx solid #e5e5e5;
+  width: 100%;
+  height: 80rpx;
+}
+.modal-box2{
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  animation: show .5s;
+  /* transition: all 0.4s ease-in 1s; */
+}
+@keyframes show
+{
+from {right: -70%;}
+to {right: 0;}
+}

@@ -1,0 +1,35 @@
+<!--pages/pretyRadioUsecase/pretyRadioUsecase.wxml-->
+<view class='main-box-white'>
+  <view class='block-h70' style='height: 70rpx;'></view>
+
+  <!-- 自定义使用样例↓ -->
+  <!-- <prety-radio-group outer-class='options-box' bindchange='changeValue'>
+    <prety-radio outer-class='option-item flex-rc' selected-class='selected-item' wx:for='{{dataList}}' value='{{item}}' index='{{index}}'>
+      {{item}}
+    </prety-radio>
+  </prety-radio-group> -->
+
+
+  <!-- 普通使用样例↓ -->
+  <prety-radio-group bindchange='changeValue'>
+    <prety-radio wx:for='{{dataList}}' value='{{item.name}}' index='{{index}}'>
+      {{item.name}}({{item.count}})
+    </prety-radio>
+  </prety-radio-group>
+
+
+  <!-- 使用说明 -->
+  <view class='handbook-box'>
+group上的events： change 选项改变时触发
+bindchange(e)： e.detail.value=={{choosingValue}}
+
+value： String/Number 选项携带的值（必填）
+index： Number 选项的角标（必填）
+outer-class： 代替class，组件专用
+selected-class： 选中时的样式类
+  </view>
+  <view style='padding: 30rpx;'>
+    <code>{{code}}</code>
+  </view>
+
+</view>

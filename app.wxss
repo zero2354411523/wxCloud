@@ -1,0 +1,86 @@
+/**app.wxss**/
+page{
+  width: 100%;
+  height: 100%;
+  background-color: #f4f4f4; 
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.main-box{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+.main-box-white{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+.text-over{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.text-over2{
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.flex-rc{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.flex-cc{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.flex-rsb{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-rfs{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex-rfe{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.e5-box{
+  border-radius: 10rpx;
+  border: 1rpx solid #e5e5e5;
+  box-shadow: 0 0 10rpx #e5e5e5;
+}
+.handbook-box{
+  width: auto;
+  margin: 20rpx;
+  border: 1rpx dotted #e5e5e5;
+  padding: 0 20rpx;
+  font-size: 32rpx;
+  white-space: pre;
+}
+.center-box{
+  margin: 20rpx;
+}

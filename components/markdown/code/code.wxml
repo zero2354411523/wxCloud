@@ -1,0 +1,6 @@
+<!--components/markdown/code/code.wxml-->
+<scroll-view scroll-x class='code-box'>
+  <view class='word-box'>
+    <slot></slot>
+  </view>
+</scroll-view>

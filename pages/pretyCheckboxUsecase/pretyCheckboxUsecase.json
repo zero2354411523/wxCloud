@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "prety-radio": "/components/pretyCheckbox/pretyCheckbox",
+    "prety-radio-group": "/components/pretyCheckboxGroup/pretyCheckboxGroup"
+  },
+  "navigationBarTitleText": "pretyCheckbox"
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "prety-radio": "/components/pretyRadio/pretyRadio",
+    "prety-radio-group": "/components/pretyRadioGroup/pretyRadioGroup"
+  },
+  "navigationBarTitleText": "pretyRadio"
+}

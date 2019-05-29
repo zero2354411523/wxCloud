@@ -1,0 +1,21 @@
+<!--pages/laterPickerUsercase/laterPickerUsecase.wxml-->
+<view class='main-box-white'>
+    <view class='block-h100' style='height: 100rpx;'></view>
+    <!-- 使用例 -->
+    <later-picker bindchooseEnd='logRes' outer-class='picker-box flex-rc e5-box'></later-picker>
+    
+    <!-- 组件说明 -->
+    <view class='handbook-box'>
+    允许选择当前时间点之后30天内的时间
+    最小单位为10分钟
+
+    chooseEnd events 选择确定后触发的事件
+    bindchooseEndMethods(e): 
+    返回标准事件格式的字符串 
+    e.detail.timestr == {{timeStr}}
+    </view>
+    <view class='center-box'>
+      <code>{{code}}</code>
+    </view>
+    
+</view>

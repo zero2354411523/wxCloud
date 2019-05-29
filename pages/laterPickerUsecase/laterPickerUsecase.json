@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "later-picker": "/components/laterPicker/laterPicker"
+  },
+  "navigationBarTitleText": "laterPicker"
+}

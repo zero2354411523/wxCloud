@@ -1,0 +1,11 @@
+<!--components/pretyRadio/pretyRadio.wxml-->
+<!-- 自定义版式↓ -->
+<view wx:if='{{canEdit}}' class='outer-class {{isSelected ? "selected-class" : ""}}' bindtap='pickerTap'>
+  <slot></slot>
+</view>
+
+
+<!-- 组件内样式版式↓ -->
+<view wx:if='{{!canEdit}}' class='notActive {{isSelected ? "active" : ""}}' bindtap='pickerTap'>
+  <slot></slot>
+</view>

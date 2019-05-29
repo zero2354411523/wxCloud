@@ -1,0 +1,25 @@
+/* pages/pretyRadioUsecase/pretyRadioUsecase.wxss */
+.options-box{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.option-item{
+  position: relative;
+  min-width: 100rpx;
+  border: 1rpx solid #e5e5e5;
+  border-radius: 100rpx;
+  margin: 10rpx;
+}
+.selected-item{
+  border: 1px solid #f63;
+}
+.handbook-box{
+  width: auto;
+  margin: 20rpx;
+  border: 1rpx dotted #e5e5e5;
+  padding: 0 20rpx;
+  font-size: 32rpx;
+  white-space: pre;
+}

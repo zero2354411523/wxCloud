@@ -1,0 +1,35 @@
+<!--pages/modalMaskUsecase/modalMaskUsecase.wxml-->
+<view class='main-box-white'>
+
+  <view class='e5-box modal-btn flex-rc' bindtap='showModal'>显示默认模态框</view>
+  <view class='e5-box modal-btn flex-rc' bindtap='showModal2'>自定义模态框</view>
+
+  <modal id='mask1' outer-class='modal-box flex-cc'>
+    <view bindtap='copy' class='word-box'>{{words}}</view>
+    <view class='ok-btn flex-rc' bindtap='hideModal'>确认</view>
+  </modal>
+
+  <modal id='mask2' outer-class='modal-box2 flex-cc' position='none'>
+  </modal>
+
+  <!-- 使用说明 -->
+  <view class='handbook-box'>
+    <view style='color:red;'>问：如何控制modal显示</view>
+    <view>需要一个给modal标签一个id
+通过形如↓ 获取组件对象
+let modal = this.selectComponent('#mask1') 
+再通过↓ 控制显示与隐藏
+modal.show() modal.hide()
+    </view>  
+    <view style='color:red;'>问：如何自定义modal</view>
+    <view>标签默认有一个modal区域
+可直接编辑交互内容
+也可以传递position='none'清除默认modal
+使用outer-class对modal添加样式
+    </view>
+  </view>
+  <view class='center-box'>
+    <code>{{code}}</code>
+  </view>
+  
+</view>

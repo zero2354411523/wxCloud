@@ -1,0 +1,12 @@
+<!--pages/rateUsecase/rateUsecase.wxml-->
+<!-- <view>
+  <rate bindchange='logRes' outer-class='empty-star' selected-class='colorful-star' isEdit='true'
+  class='flex-rc'></rate>
+</view> -->
+
+<!-- 普通用法↓ -->
+<view class='main-box-white'>
+  <rate bindchange='logRes' name='教得好'></rate>
+</view>
+
+<!-- 华丽用法↓ -->

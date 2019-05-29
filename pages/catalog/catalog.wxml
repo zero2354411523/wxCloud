@@ -1,0 +1,6 @@
+<!--logs.wxml-->
+<view class="main-box">
+    <view class="catalog-box">
+      <view class="catalog-item" wx:for="{{bgColorList}}" style="background-color: #{{item}}" bindtap="goUseCase" data-index="{{index}}">{{routerList[index]}}</view>
+    </view>
+</view>

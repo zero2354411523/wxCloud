@@ -1,0 +1,50 @@
+/* components/rate/rate.wxss */
+.empty-star{
+  width: 40rpx;
+  height: 40rpx;
+  background: url('https://lairenna-static.oss-cn-hangzhou.aliyuncs.com/applent/images/discover/btn_star_normal@3x.png');
+  background-size: 100%;
+}
+.colorful-star{
+  background: url('https://lairenna-static.oss-cn-hangzhou.aliyuncs.com/applent/images/discover/btn_star_selected@3x.png');
+  background-size: 100%;
+}
+.rate-line{
+  width: 100%;
+  height: 102rpx;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1rpx solid #e5e5e5; 
+  border-top: 1rpx solid #e5e5e5;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.star-line{
+  width: 348rpx;
+  height: 102rpx;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.name-box{
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  color: #333333;
+  letter-spacing: 0;
+  width: 238rpx;
+  text-align: left;
+}
+.rate-num-box{
+  width: 104rpx;
+  height: 42rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  color: #999999;
+  letter-spacing: 0;
+  text-align: right;
+  
+}

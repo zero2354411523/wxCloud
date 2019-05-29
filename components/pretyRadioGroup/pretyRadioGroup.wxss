@@ -1,0 +1,10 @@
+/* components/pretyRadioGroup/pretyRadioGroup.wxss */
+.group-box{
+  width: 100%;
+  padding: 30rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+}

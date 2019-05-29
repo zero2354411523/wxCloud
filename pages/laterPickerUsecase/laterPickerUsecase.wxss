@@ -1,0 +1,6 @@
+/* pages/laterPickerUsercase/laterPickerUsecase.wxss */
+.picker-box{
+  width: 300rpx;
+  height: 100rpx;
+  margin: auto;
+}

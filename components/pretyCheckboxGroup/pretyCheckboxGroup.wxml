@@ -1,0 +1,8 @@
+<!--components/pretyRadioGroup/pretyRadioGrop.wxml-->
+<view wx:if='{{canEdit}}' class='outer-class'>
+  <slot></slot>
+</view>
+
+<view wx:if='{{!canEdit}}' class='group-box'>
+  <slot></slot>
+</view>

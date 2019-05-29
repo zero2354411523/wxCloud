@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/catalog/catalog",
+    "pages/modalUsecase/modalUsecase",
+    "pages/pretyRadioUsecase/pretyRadioUsecase",
+    "pages/laterPickerUsecase/laterPickerUsecase",
+    "pages/index/index",
+    "pages/pretyCheckboxUsecase/pretyCheckboxUsecase",
+    "pages/rateUsecase/rateUsecase"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "code": "/components/markdown/code/code"
+  },
+  "sitemapLocation": "sitemap.json"
+}

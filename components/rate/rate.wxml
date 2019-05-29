@@ -1,0 +1,20 @@
+<!--components/rate/rate.wxml-->
+<!-- 无样式自定义组件版↓ -->
+<block wx:if="{{canEdit}}">
+  <view wx:for='{{rateList}}' bindtap='changeRate' data-rate='{{item}}' class='outer-class {{item <= rate ? "selected-class" : ""}}'>
+    <slot></slot>
+  </view>
+</block>
+
+<!-- 组件携带样式版↓ -->
+<block wx:if="{{!canEdit}}">
+<view class='rate-line'>
+  <view class='name-box'>{{name}}</view>
+  <view class='star-line'>
+    <view wx:for='{{rateList}}' bindtap='changeRate' data-rate='{{item}}' class='empty-star {{item <= rate ? "colorful-star" : ""}}'>
+      <slot></slot>
+    </view>
+  </view>
+  <view class='rate-num-box'>{{rate}}.0</view>
+</view>
+</block>

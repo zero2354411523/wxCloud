@@ -1,0 +1,8 @@
+<!--components/modalMask/modalMask.wxml-->
+<view class='mask' bindtap='hide' wx:if='{{isDisplay}}'>
+  <view class='outer-class {{position}}' catchtap='block'>
+      <view class='close-icon' bindtap='hide' hidden='{{isHideClose}}'>×</view>
+      <view class='block-h50' style='height: 50rpx;' hidden='{{isHideClose}}'></view>
+      <slot></slot>
+  </view>
+</view>

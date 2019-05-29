@@ -1,0 +1,24 @@
+<view class='main-box-white'>
+  <!-- 自定义使用例↓ -->
+  <view class='block-h70' style='height: 70rpx;'></view>
+  <!-- <prety-radio-group outer-class='options-box' bindchange='changeValue'>
+    <prety-radio outer-class='option-item flex-rc' selected-class='selected-item' wx:for='{{dataList}}' value='{{item}}' index='{{index}}'>
+      {{item}}
+    </prety-radio>
+  </prety-radio-group> -->
+
+
+  <!-- 普通使用例↓ -->
+  <prety-radio-group bindchange='changeValue'>
+    <prety-radio value='{{item.name}}' index='{{0}}' type='allForOne'>
+      {{'全部'}}
+    </prety-radio>
+    <prety-radio wx:for='{{dataList}}' value='{{item.name}}' index='{{index+1}}'>
+      {{item.name}}
+    </prety-radio>
+  </prety-radio-group>
+
+  <view class='center-box'>
+      <code>{{code}}</code>
+  </view>
+  </view>

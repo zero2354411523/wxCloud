@@ -1,0 +1,14 @@
+/* components/markdown/code/code.wxss */
+.code-box{
+  width: 100%;
+  background-color: #282c34;
+  border-radius: 10rpx; 
+}
+.word-box{
+  white-space: pre;
+  color: #abb2bf;
+  font-size: 32rpx;
+  line-height: 40rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+}

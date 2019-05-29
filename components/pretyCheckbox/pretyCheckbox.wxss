@@ -1,0 +1,27 @@
+/* components/pretyCheckbox/pretyCheckbox.wxss */
+.notActive{
+  height: 58rpx;
+  padding: 12rpx 24rpx;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background: #F8F8F8;
+  border-radius: 100rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  color: #666666;
+  letter-spacing: 0;
+  margin-right: 24rpx;
+  margin-bottom: 22rpx;
+  box-sizing: border-box;
+}
+.active{
+  background: #FFF7F0;
+  border: 1rpx solid #FF8911;
+  border-radius: 100rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  color: #FF8911;
+  letter-spacing: 0;
+}
